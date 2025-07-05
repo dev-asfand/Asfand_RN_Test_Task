@@ -31,10 +31,11 @@ const HomeScreen: React.FC = () => {
     selectFromHistory,
     removeFromHistory,
     clearHistory,
+    clearSelection,
   } = useSearch();
 
   const handleClearSelection = () => {
-    // This will be handled by the hook when we implement it
+    clearSelection();
   };
 
   const renderTabContent = () => {

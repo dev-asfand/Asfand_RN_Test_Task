@@ -98,6 +98,11 @@ export const useSearch = () => {
     }
   };
 
+  // Clear selected place
+  const clearSelection = () => {
+    setSelectedPlace(null);
+  };
+
   return {
     searchQuery,
     setSearchQuery,
@@ -109,5 +114,6 @@ export const useSearch = () => {
     selectFromHistory,
     removeFromHistory,
     clearHistory,
+    clearSelection,
   };
 }; 
