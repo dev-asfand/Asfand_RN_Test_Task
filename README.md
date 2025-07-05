@@ -18,7 +18,7 @@ A comprehensive React Native mobile application that demonstrates advanced techn
 - **Debounced Search**: Performance optimization with 500ms debounce
 - **Error Handling**: Comprehensive error handling throughout the app
 
-## 📱 Screenshots
+## 📱 Screens
 
 The app features two main tabs:
 1. **Map Tab**: Search interface with map display
@@ -36,7 +36,7 @@ The app features two main tabs:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/dev-asfand/Asfand_RN_Test_Task.git
    cd AsfandRNTest
    ```
 
